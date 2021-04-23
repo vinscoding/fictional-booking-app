@@ -11,7 +11,7 @@
 
 html {
   box-sizing: inherit;
-  font-size: 62.5%; /*to make room 10px, default value is change from 16px to 10 px*/
+  font-size: 62.5%; /*to make root 10px, default value is changed from 16px to 10 px*/
 }
 
 body {
@@ -371,6 +371,8 @@ span {
   color: white;
 }
 
+/*-------------responsive design-------------*/
+
 @media only screen and (max-width: 1198px) {
   .container {
     margin: 0px;
@@ -464,11 +466,6 @@ span {
   }
 }
 @media only screen and (max-width: 361px) {
-  .menus span {
-    font-size: 1.5rem;
-    width: 1rem;
-    text-align: center;
-  }
   .hotel-stripe {
     height: 10rem;
     display: block;
